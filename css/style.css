@@ -1,0 +1,205 @@
+@charset 'utf-8';
+
+a{
+	color:inherit;
+}
+
+#wrap{
+	min-width: 320px;
+}
+/*모바일*/
+/*header*/
+
+
+h1{
+	text-indent: -99999px;
+	display: block;
+	width:50px;
+	height: 50px;
+	background-image: url(../img/logo.png);
+	background-size: 100% auto;
+	position: absolute;
+	top:10px;
+	left:10px;
+}
+
+header{
+	width:100%;
+	height: 70px;
+	background-color:#efefef;
+	position:fixed;
+	z-index: 10;
+}
+
+.h_btns{
+	position:absolute;
+	right:20px;
+	top:10px;
+}
+
+.h_btns p{
+	float: left;
+}
+
+.h_btns p a{
+	display:block;
+	width:45px;
+	height: 45px;
+	background-repeat: no-repeat;
+	background-size:25px auto;
+	text-indent: -9999px;
+	background-position: center;
+}
+
+.h_btns p:nth-child(1) a{
+	background-image: url(../img/btn_user.png);
+}
+
+.h_btns p:nth-child(2) a{
+	background-image: url(../img/btn_spot.png);
+}
+
+
+.h_btns p:nth-child(3) a{
+	background-image: url(../img/btn_menu.png);
+}
+
+.utill{
+	display: none;
+}
+
+.gnb{
+	display: none;
+}
+
+.h_search{
+	display: none;
+}
+
+/*main .container*/
+
+.container{
+	padding-top:70px;
+}
+
+.main01{
+	background-image: url(../img/main_bg.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 690px;
+	background-position: center;
+	/*overflow: hidden;*/
+	position: relative;
+}
+
+.main01 .title{
+	position:absolute;
+	top:50px;
+	left:50%;
+	margin-left:-63px;
+}
+
+.main01 .title img{
+	width:126px;
+	height: auto;
+}
+
+.main01 li{
+	position: absolute;
+	/*opacity: 0*/
+}
+
+.main01 .bev1{
+	top:180px;
+	left:50%;
+	margin-left: -200px;
+	
+}
+
+.main01 .bev2{
+	top:253px;
+	left:50%;
+	margin-left:-64px;
+}
+
+.main01 .bev3{
+	top:180px;
+	left:50%;
+	margin-left: 76px;
+}
+
+.cup img{
+	width:128px;
+	height: auto
+}
+
+.txt{
+	margin-left:16px;
+	margin-top:10px;
+}
+
+.txt img{
+	width:96px;
+	height: auto;
+}
+
+.main01 .bg1{
+	position: absolute;
+	top:160px;
+	left:50%;
+	margin-left:-260px;
+	/*opacity: 0*/
+}
+
+.main01 .bg1 img{
+	width:120px;
+	height: auto;
+}
+
+.main01 .bg2{
+	position: absolute;
+	top:190px;
+	left:50%;
+	margin-left:-105px;
+	/*opacity: 0*/
+}
+
+.main01 .bg2 img{
+	width:170px;
+	height: auto;
+}
+
+.main01 .bg3{
+	position: absolute;
+	top:190px;
+	left:50%;
+	margin-left:160px;
+	/*opacity: 0*/
+}
+
+.main01 .bg3 img{
+	width:60px;
+	height: auto;
+}
+
+.notice{
+	height: 70px;
+	position:relative;
+	background-color: #333;
+	padding:20px 0	;
+	color:#ccc;
+}
+
+.notice h3{
+	position:absolute;
+	top:0;
+	left:0;
+	background-image: url(../img/icon_board_speaker.png);
+	width:60px;
+	height:70px;
+	background-size: 30px auto;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	background-position: center;
+
+}
